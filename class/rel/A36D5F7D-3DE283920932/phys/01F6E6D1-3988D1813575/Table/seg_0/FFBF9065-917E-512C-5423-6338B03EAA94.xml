@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="LEND_RETURN" directorySegmentName="seg_0" id="FFBF9065-917E-512C-5423-6338B03EAA94">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 01:22:46 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<schemaObject>C9F102A6-3F17-5439-EDC3-A3D2B0C05D9E</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>8C8B9FE2-6A59-0522-0FBE-F4000FD58BBD</segment>
+<tableSpace>95F2CD20-37EC-7B7D-56CD-EA9076B760FB</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="R_PLAN_DATE" id="0A92A36A-82D9-45FB-2875-1B22C916529F">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 01:22:47 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="L_DATE" id="3C87F450-4A01-6728-11BE-5AC0B868607F">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 01:22:47 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="V_CODE" id="9ABE4A2F-F94B-011C-D127-BBF9BCCF59A4">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 01:22:47 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LR_CODE" id="B703BF3A-5363-1CFA-53FB-FFC6793F6C66">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 01:22:47 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="G_CODE" id="D36A25FC-68C2-4EB2-2252-51814EF88E90">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 01:22:47 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="L_TOTAL_PAY" id="D91B17C2-B6E5-E50D-A724-1196DA4B7E18">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 01:22:47 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="LR_CODE_PK" id="5CEB078B-679A-110D-40A1-17D285CE2297">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 01:22:49 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<schemaObject>C9F102A6-3F17-5439-EDC3-A3D2B0C05D9E</schemaObject>
+<segment>8C9AE624-20B5-D031-482E-0A44421B3EC4</segment>
+<tableSpace>95F2CD20-37EC-7B7D-56CD-EA9076B760FB</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="V_CODE_FK" id="9C68E0A9-53A5-B5BB-C848-057C9CC36E36">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 01:22:50 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="G_CODE_FK" id="D3DEB2D1-7834-4FA6-E358-00E7BC787C63">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 01:22:50 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="LR_CODE_PK" id="DACE1B7F-ACD0-707B-5232-0A6D3DAA19A1">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 01:22:49 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<segment>8C9AE624-20B5-D031-482E-0A44421B3EC4</segment>
+<tableSpace>95F2CD20-37EC-7B7D-56CD-EA9076B760FB</tableSpace>
+<existingIndex>5CEB078B-679A-110D-40A1-17D285CE2297</existingIndex>
+<indexSegment>8C9AE624-20B5-D031-482E-0A44421B3EC4</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>
