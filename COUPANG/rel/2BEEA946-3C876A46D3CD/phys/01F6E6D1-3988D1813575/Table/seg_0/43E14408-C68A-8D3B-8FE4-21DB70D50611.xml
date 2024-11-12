@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="PRODUCT" directorySegmentName="seg_0" id="43E14408-C68A-8D3B-8FE4-21DB70D50611">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 08:42:24 UTC</createdTime>
+<ownerDesignName>COUPANG</ownerDesignName>
+<schemaObject>C4C62DCA-E10F-F70C-22DB-14F26591D579</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>B4B14BD4-0ED6-F46D-74E4-5D02621F6D27</segment>
+<tableSpace>FFF22CB1-D257-FB37-B3E3-A790DA7306B5</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="P_NAME" id="29D43B3B-2C44-121D-6B9B-C9BF5DB13EB4">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 08:42:24 UTC</createdTime>
+<ownerDesignName>COUPANG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STOCK" id="486A8AB9-1150-7C93-1BEA-A070FF79F78F">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 08:42:24 UTC</createdTime>
+<ownerDesignName>COUPANG</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="P_NUM" id="67AFAC0B-3C74-180D-A0D0-A3E57E05F4D3">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 08:42:24 UTC</createdTime>
+<ownerDesignName>COUPANG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRICE" id="FD710ABF-569A-CCB0-A7B5-B706C1987982">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 08:42:24 UTC</createdTime>
+<ownerDesignName>COUPANG</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="P_NUM_PK" id="B19BF761-E007-F31C-D030-CBBB0802BD68">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 08:42:24 UTC</createdTime>
+<ownerDesignName>COUPANG</ownerDesignName>
+<schemaObject>C4C62DCA-E10F-F70C-22DB-14F26591D579</schemaObject>
+<segment>09BF6F1A-2C3D-674B-E06D-B0811A002C05</segment>
+<tableSpace>FFF22CB1-D257-FB37-B3E3-A790DA7306B5</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="P_NUM_PK" id="AB70E085-6500-A636-FE93-6246240B1C35">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 08:42:24 UTC</createdTime>
+<ownerDesignName>COUPANG</ownerDesignName>
+<segment>09BF6F1A-2C3D-674B-E06D-B0811A002C05</segment>
+<tableSpace>FFF22CB1-D257-FB37-B3E3-A790DA7306B5</tableSpace>
+<existingIndex>B19BF761-E007-F31C-D030-CBBB0802BD68</existingIndex>
+<indexSegment>09BF6F1A-2C3D-674B-E06D-B0811A002C05</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

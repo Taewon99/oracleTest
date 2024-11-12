@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AF6DB04D-4D39-61D7-FC84-4C24D431B78D" name="PRODUCT">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 07:56:58 UTC</createdTime>
+<ownerDesignName>COUPANG</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="P_NUM" id="F6761075-EF91-885D-CC8F-DA9E3CEEB548">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 07:57:34 UTC</createdTime>
+<ownerDesignName>COUPANG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="P_NAME" id="A743497E-C7F8-0C5E-1A39-699760AC285B">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 07:58:37 UTC</createdTime>
+<ownerDesignName>COUPANG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRICE" id="FB2AFF60-980E-10F2-6E87-792E3B3B2B86">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 07:57:53 UTC</createdTime>
+<ownerDesignName>COUPANG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STOCK" id="60409E75-A4BC-D3FF-354A-2DC70A1081F8">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 07:58:37 UTC</createdTime>
+<ownerDesignName>COUPANG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="54FA0051-7E8E-842C-683A-24219E1257EC" name="PRODUCT_PK">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 07:57:34 UTC</createdTime>
+<ownerDesignName>COUPANG</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6761075-EF91-885D-CC8F-DA9E3CEEB548"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="SUBJECT" directorySegmentName="seg_0" id="890B0EC1-3270-8937-4CBD-FF84F3CE5379">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 02:10:55 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="S_NAME" id="510311DA-06A5-3EFC-118D-755D37955362">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 02:19:01 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="S_NUM" id="A7B50D8B-C469-F7EC-5C01-6FB5B81541E0">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 02:17:34 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NO" id="D8C5C0AE-8AD8-2EDA-4397-A2983C692909">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 02:12:06 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="SUBJECT_PK" id="1320912F-8F1C-76AF-4C3E-8E8B1F82C250">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 02:19:01 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

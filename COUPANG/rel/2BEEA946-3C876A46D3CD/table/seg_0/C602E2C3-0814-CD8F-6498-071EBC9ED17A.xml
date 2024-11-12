@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C602E2C3-0814-CD8F-6498-071EBC9ED17A" name="ORDER">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 08:02:33 UTC</createdTime>
+<ownerDesignName>COUPANG</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="O_NUM" id="1FFA6FBF-5B93-9983-ED6A-240B08A746C1">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 08:02:56 UTC</createdTime>
+<ownerDesignName>COUPANG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="C_NUM" id="92CEC9D0-A9AF-BD32-08E9-6E5F25F23071">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 08:03:12 UTC</createdTime>
+<ownerDesignName>COUPANG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C7C6DA89-C210-9717-A66B-A1ACD2C8888D" referredColumn="046B27C3-BEF6-7E00-E522-E0793D03F459"/>
+</associations>
+</Column>
+<Column name="P_NUM" id="B13DD5B2-2F6C-8B65-FF8B-381B269E4225">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 08:03:32 UTC</createdTime>
+<ownerDesignName>COUPANG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="917EFC42-6F24-4DD7-C33C-B345DA4A474E" referredColumn="F6761075-EF91-885D-CC8F-DA9E3CEEB548"/>
+</associations>
+</Column>
+<Column name="AMOUNT" id="20BDEA02-AC34-2864-3B42-5BFA2D4DBDF7">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 08:03:52 UTC</createdTime>
+<ownerDesignName>COUPANG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TOTAL_PRICE" id="4E7A92A9-179E-4161-29E7-C59171859A35">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 08:04:15 UTC</createdTime>
+<ownerDesignName>COUPANG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5AD022EE-8A54-085D-0782-A2DB995C16EE" name="ORDER_PK">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 08:02:56 UTC</createdTime>
+<ownerDesignName>COUPANG</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1FFA6FBF-5B93-9983-ED6A-240B08A746C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="706DE279-5707-9B6E-DC44-F910510488B4" name="ORDER_CUSTOMER_C_NUM_FK">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 08:05:50 UTC</createdTime>
+<ownerDesignName>COUPANG</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="92CEC9D0-A9AF-BD32-08E9-6E5F25F23071"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FF446FC5-ACD3-BDF1-10C8-BD1F2A837CCE" name="ORDER_PRODUCT_P_NUM_FK">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 08:17:09 UTC</createdTime>
+<ownerDesignName>COUPANG</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B13DD5B2-2F6C-8B65-FF8B-381B269E4225"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

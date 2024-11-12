@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1350CFC0-6BC7-D272-CA54-BC4214A22C2C" name="TRAINEE">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 02:40:39 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NO" id="C6593E74-179F-4441-0DAE-41FB83AEC444">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 02:41:02 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SD_NUM" id="7D144C42-4770-9876-A48C-8E6DFA2D4025">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 02:41:58 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="I_NUM" id="EFBDDACA-2ADB-AF3B-2233-4217E5FF1B89">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 02:42:19 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_SECTION" id="84401920-B56B-B38A-57D1-D8F0649ECB12">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 02:43:02 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_DATE" id="653BC0D7-9D60-A08B-A924-33C3A8FC5E3C">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 02:43:28 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F1556419-E7A6-1C47-DF1E-14564287D89C" name="TRAINEE_PK">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 02:43:53 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6593E74-179F-4441-0DAE-41FB83AEC444"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
