@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="694F47E8-32C0-D8C0-75A5-65038B17A00D" containerWithKeyObject="39184D86-0A88-A28B-76D8-DE45EAACE91D" localFKIndex="625B585E-AF81-F985-CEDA-C0423FBD59F2" name="SHIPPING_ORDER_O_NUM_FK">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 08:17:55 UTC</createdTime>
+<ownerDesignName>COUPANG</ownerDesignName>
+<referredTableLongName>ORDER</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C602E2C3-0814-CD8F-6498-071EBC9ED17A</referredTableID>
+<keyObject>5AD022EE-8A54-085D-0782-A2DB995C16EE</keyObject>
+<referredKeyID>5AD022EE-8A54-085D-0782-A2DB995C16EE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>O_NUM</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorColumn>1FFA6FBF-5B93-9983-ED6A-240B08A746C1</discriminatorColumn>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

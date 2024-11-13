@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="593BA4BF-84EC-B06F-40CC-400B52A9C813" name="LESSON">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 02:36:32 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NO" id="9D3788FD-C493-BAC4-7616-2220E576BB31">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 02:37:08 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="I_NUM" id="3FC89F00-1C7B-CAF4-4360-968228F86D02">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 02:37:47 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="I_NAME" id="87C95BAD-A7ED-5461-5502-20159164B60D">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 02:38:22 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="671EB26B-9FAD-D93C-B584-31AF82204760" name="LESSON_PK">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 02:39:04 UTC</createdTime>
+<ownerDesignName>class</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D3788FD-C493-BAC4-7616-2220E576BB31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

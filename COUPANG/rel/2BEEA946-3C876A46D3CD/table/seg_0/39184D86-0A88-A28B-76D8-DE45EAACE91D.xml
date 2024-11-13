@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="39184D86-0A88-A28B-76D8-DE45EAACE91D" name="SHIPPING">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 07:59:15 UTC</createdTime>
+<ownerDesignName>COUPANG</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="S_NUM" id="937B9A56-1B9D-D827-D37B-A0CA076F113B">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 08:00:08 UTC</createdTime>
+<ownerDesignName>COUPANG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="O_NUM" id="3E80FD2D-E617-A1B4-77CD-9B4BA7B001D0">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 08:00:42 UTC</createdTime>
+<ownerDesignName>COUPANG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="694F47E8-32C0-D8C0-75A5-65038B17A00D" referredColumn="1FFA6FBF-5B93-9983-ED6A-240B08A746C1"/>
+</associations>
+</Column>
+<Column name="ADDR" id="7F79B753-388C-DCC6-F4D8-4C2565648D91">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 08:02:03 UTC</createdTime>
+<ownerDesignName>COUPANG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SHIPPING_DATE" id="9C4948C9-C0E5-8B54-1D3F-BABF82A7D9A0">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 08:01:04 UTC</createdTime>
+<ownerDesignName>COUPANG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CE31B316-C75D-BFFA-20B0-9D03AC4FFDD2" name="SHIPPING_PK">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 08:00:08 UTC</createdTime>
+<ownerDesignName>COUPANG</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="937B9A56-1B9D-D827-D37B-A0CA076F113B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="625B585E-AF81-F985-CEDA-C0423FBD59F2" name="SHIPPING_ORDER_O_NUM_FK">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 08:17:55 UTC</createdTime>
+<ownerDesignName>COUPANG</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E80FD2D-E617-A1B4-77CD-9B4BA7B001D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

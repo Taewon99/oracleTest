@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="COUPANG" id="D62AB3BD-BED3-1D8B-062A-8C560BEE4CA5" version="3.5">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 07:23:53 UTC</createdTime>
+<ownerDesignName>COUPANG</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>D62AB3BD-BED3-1D8B-062A-8C560BEE4CA5</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="C590E4D6-2D65-594C-6401-29D247813710">
+<designStoragePath>C:\Users\Owner\Desktop\KH정보교육원\DB\oracleTest</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

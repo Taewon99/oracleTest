@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.relational.DPVRelational" name="Relational_1" id="718ADC51-4A03-E155-7BE2-8FDD5ECD69A5">
+<createdBy>Owner</createdBy>
+<modifiedBy>Owner</modifiedBy>
+<createdTime>2024-11-08 01:16:59 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="1350CFC0-6BC7-D272-CA54-BC4214A22C2C" otype="Table" vid="55BC3DFE-8230-D5E5-5F45-DA8B87D884FC">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="134" y="315" width="221" height="134"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="593BA4BF-84EC-B06F-40CC-400B52A9C813" otype="Table" vid="9C18EAF1-340A-D0AA-03CA-096E50AC364B">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="78" y="102" width="221" height="142"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="890B0EC1-3270-8937-4CBD-FF84F3CE5379" otype="Table" vid="7477A46E-5AA4-4B15-D16B-001E3E007938">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="346" y="81" width="205" height="163"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="987060E3-F5AD-8261-407C-22907BC2B52C" otype="Table" vid="C12C3DFD-E845-5F32-6817-534B314D85BB">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="712" y="74" width="250" height="276"/>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="72B4B34C-9D65-1034-9237-B7F378C929F3" otype="FKIndexAssociation" vid_source="7477A46E-5AA4-4B15-D16B-001E3E007938" vid_target="C12C3DFD-E845-5F32-6817-534B314D85BB">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="551" y="162"/>
+<point x="712" y="162"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>

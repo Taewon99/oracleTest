@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E7890C8B-D260-2AB0-2FB4-F8E7B0D8C648" name="BUY">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 05:38:51 UTC</createdTime>
+<ownerDesignName>SHOPINGMALL</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NO" id="62F51D5E-3CA5-4815-FD5E-BF614CF636F2">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 05:42:43 UTC</createdTime>
+<ownerDesignName>SHOPINGMALL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MOBILE" id="0E46B9FE-AAAE-1A81-1B73-639693891580">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 05:39:53 UTC</createdTime>
+<ownerDesignName>SHOPINGMALL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0C5FFE74-43E1-08A0-C11B-712B93C09FBE" referredColumn="F326520E-091A-D830-729D-D20F2A9F8600"/>
+</associations>
+</Column>
+<Column name="PRODUCTNAME" id="A3CBB99F-23CE-1AFD-614E-77E5720480FD">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 05:41:07 UTC</createdTime>
+<ownerDesignName>SHOPINGMALL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRICE" id="090EFC55-8C9B-8933-A32A-1FC0D9563A63">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 05:41:31 UTC</createdTime>
+<ownerDesignName>SHOPINGMALL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AMOUNT" id="25093602-97F8-0E42-4C92-CE01ED20ED23">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 05:42:06 UTC</createdTime>
+<ownerDesignName>SHOPINGMALL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="54E78CA4-EF0E-E4F1-DD4C-2FC523CF7349" name="BUY_PK">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 05:39:53 UTC</createdTime>
+<ownerDesignName>SHOPINGMALL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62F51D5E-3CA5-4815-FD5E-BF614CF636F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7EF15369-1062-45E3-F19E-8523DD0FA690" name="BUY_USER_MOBILE_FK">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 05:43:15 UTC</createdTime>
+<ownerDesignName>SHOPINGMALL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E46B9FE-AAAE-1A81-1B73-639693891580"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

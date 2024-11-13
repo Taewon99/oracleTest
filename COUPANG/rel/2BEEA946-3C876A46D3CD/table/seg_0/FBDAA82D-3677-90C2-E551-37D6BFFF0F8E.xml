@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FBDAA82D-3677-90C2-E551-37D6BFFF0F8E" schemaObject="C4C62DCA-E10F-F70C-22DB-14F26591D579" name="SHIPPING">
+<sourceConnName>COUPANG</sourceConnName>
+<sourceObjSchema>COUPANG</sourceObjSchema>
+<sourceObjName>SHIPPING</sourceObjName>
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 08:42:24 UTC</createdTime>
+<ownerDesignName>COUPANG</ownerDesignName>
+<importedID>2A7B0C45-0B6F-24C5-2876-A9AD8A9DA17B</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="S_NUM" id="D116073C-7CEE-CE0F-1E61-0E0A869061FE">
+<sourceConnName>COUPANG</sourceConnName>
+<sourceObjSchema>SHIPPING</sourceObjSchema>
+<sourceObjName>S_NUM</sourceObjName>
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 08:42:24 UTC</createdTime>
+<ownerDesignName>COUPANG</ownerDesignName>
+<importedID>14E37575-78E7-9174-B3FF-4CEABCCCD50C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="O_NUM" id="1BC791E0-31E0-7D0C-A28E-5D0031E13AF3">
+<sourceConnName>COUPANG</sourceConnName>
+<sourceObjSchema>SHIPPING</sourceObjSchema>
+<sourceObjName>O_NUM</sourceObjName>
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 08:42:24 UTC</createdTime>
+<ownerDesignName>COUPANG</ownerDesignName>
+<importedID>E0408D45-AA6A-1F0F-461D-3CBEA7404BDE</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A2F5A68B-4FFF-4364-D0A2-1AC693E6DC85" referredColumn="F63D8A5B-10BA-9FEB-8FDC-822DF28EBFEE"/>
+</associations>
+</Column>
+<Column name="ADDR" id="58295B69-8455-D721-C5CA-756ADACFF8EC">
+<sourceConnName>COUPANG</sourceConnName>
+<sourceObjSchema>SHIPPING</sourceObjSchema>
+<sourceObjName>ADDR</sourceObjName>
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 08:42:24 UTC</createdTime>
+<ownerDesignName>COUPANG</ownerDesignName>
+<importedID>D41924A7-9AFF-58DF-80A4-9D676E3FCBEF</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9D312531-7FBA-7419-78ED-F35B30E2D30B" referredColumn="91220A0F-C763-4046-CDFC-5B648C5EA5A0"/>
+</associations>
+</Column>
+<Column name="SHIPPING_DATE" id="1B7AC60A-ED75-7344-91B8-B825452711FD">
+<sourceConnName>COUPANG</sourceConnName>
+<sourceObjSchema>SHIPPING</sourceObjSchema>
+<sourceObjName>SHIPPING_DATE</sourceObjName>
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 08:42:24 UTC</createdTime>
+<ownerDesignName>COUPANG</ownerDesignName>
+<importedID>A0608642-6F96-C87C-25F0-ADC53C4B20A0</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7E113616-3AC7-156C-DD37-B47CCDBC1C2A" name="SHIPPING_PK">
+<sourceConnName>COUPANG</sourceConnName>
+<sourceObjSchema>COUPANG</sourceObjSchema>
+<sourceObjName>SHIPPING_PK</sourceObjName>
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 08:42:24 UTC</createdTime>
+<ownerDesignName>COUPANG</ownerDesignName>
+<importedID>8AA693E4-1EB4-0D77-3EDC-E6BAF4DBF70F</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D116073C-7CEE-CE0F-1E61-0E0A869061FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7C7C2042-A90B-F10D-0E4E-F9F9D3EA9DF9" schemaObject="C4C62DCA-E10F-F70C-22DB-14F26591D579" name="SHIPPING_PK">
+<sourceConnName>COUPANG</sourceConnName>
+<sourceObjSchema>COUPANG</sourceObjSchema>
+<sourceObjName>SHIPPING_PK</sourceObjName>
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 08:42:24 UTC</createdTime>
+<ownerDesignName>COUPANG</ownerDesignName>
+<importedID>7DFE7D5F-49BD-0796-A8E7-8B153ED6A2F6</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D116073C-7CEE-CE0F-1E61-0E0A869061FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DEDD7CC6-4792-C685-9391-A33FC2AD4D3B" name="SHIPPING_CUSTOMER_ADDR_FK">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 08:42:24 UTC</createdTime>
+<ownerDesignName>COUPANG</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="58295B69-8455-D721-C5CA-756ADACFF8EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5DB91FAE-96BE-F3D0-BAB4-23F6D7C576CE" name="SHIPPING_ORDER_O_NUM_FK">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-08 08:42:24 UTC</createdTime>
+<ownerDesignName>COUPANG</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1BC791E0-31E0-7D0C-A28E-5D0031E13AF3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
