@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="11E91E1C-7B78-F6A0-B0C2-04F9163EE665" schemaObject="0532C62D-1F01-292C-48E3-32EFDB52CA88" name="TRAINEE">
+<sourceConnName>로컬-SUBJECTDB</sourceConnName>
+<sourceObjSchema>SUBJECTDB</sourceObjSchema>
+<sourceObjName>TRAINEE</sourceObjName>
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-22 03:51:17 UTC</createdTime>
+<ownerDesignName>SUBJECTDB_MODEL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NO" id="ACFD3BB0-4573-B910-ED61-0BA6FC92ECC7">
+<sourceConnName>로컬-SUBJECTDB</sourceConnName>
+<sourceObjSchema>TRAINEE</sourceObjSchema>
+<sourceObjName>NO</sourceObjName>
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-22 03:51:17 UTC</createdTime>
+<ownerDesignName>SUBJECTDB_MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="S_NUM" id="03C19200-3AD0-B21E-C9A1-776F951D1FE8">
+<sourceConnName>로컬-SUBJECTDB</sourceConnName>
+<sourceObjSchema>TRAINEE</sourceObjSchema>
+<sourceObjName>S_NUM</sourceObjName>
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-22 03:51:17 UTC</createdTime>
+<ownerDesignName>SUBJECTDB_MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D5E9C03A-6EA3-0FB8-C6F6-B7FDB70799C1" referredColumn="E9ACC84B-0B5A-97F3-2AAD-6CEA2C73FAE2"/>
+</associations>
+</Column>
+<Column name="ABBRE" id="024AFE68-A40C-5F08-3D49-4DA291DCF0A8">
+<sourceConnName>로컬-SUBJECTDB</sourceConnName>
+<sourceObjSchema>TRAINEE</sourceObjSchema>
+<sourceObjName>ABBRE</sourceObjName>
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-22 03:51:17 UTC</createdTime>
+<ownerDesignName>SUBJECTDB_MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="000DC0F9-2613-F434-1530-792141668105" referredColumn="8225FB87-804E-B1C1-ECAE-93DBFBE93DC9"/>
+</associations>
+</Column>
+<Column name="SECTION" id="41FB6571-E05D-CC67-768E-8DCAD342B612">
+<sourceConnName>로컬-SUBJECTDB</sourceConnName>
+<sourceObjSchema>TRAINEE</sourceObjSchema>
+<sourceObjName>SECTION</sourceObjName>
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-22 03:51:17 UTC</createdTime>
+<ownerDesignName>SUBJECTDB_MODEL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TDATE" id="8D7EBAF7-2710-5880-20DC-2485B3D988C6">
+<sourceConnName>로컬-SUBJECTDB</sourceConnName>
+<sourceObjSchema>TRAINEE</sourceObjSchema>
+<sourceObjName>TDATE</sourceObjName>
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-22 03:51:17 UTC</createdTime>
+<ownerDesignName>SUBJECTDB_MODEL</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>sysdate      -- 수강신청일</defaultValue>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C5B51F7A-1BBE-3826-7F20-2A34555BC190" name="TRAINEE_NO_PK">
+<sourceConnName>로컬-SUBJECTDB</sourceConnName>
+<sourceObjSchema>SUBJECTDB</sourceObjSchema>
+<sourceObjName>TRAINEE_NO_PK</sourceObjName>
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-22 03:51:18 UTC</createdTime>
+<ownerDesignName>SUBJECTDB_MODEL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ACFD3BB0-4573-B910-ED61-0BA6FC92ECC7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="19B45458-FCF6-C2BC-DE20-CD17D4C1869A" schemaObject="0532C62D-1F01-292C-48E3-32EFDB52CA88" name="TRAINEE_NO_PK">
+<sourceConnName>로컬-SUBJECTDB</sourceConnName>
+<sourceObjSchema>SUBJECTDB</sourceObjSchema>
+<sourceObjName>TRAINEE_NO_PK</sourceObjName>
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-22 03:51:18 UTC</createdTime>
+<ownerDesignName>SUBJECTDB_MODEL</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ACFD3BB0-4573-B910-ED61-0BA6FC92ECC7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A52EA810-772B-A2F2-A232-70BDD794ADF6" name="TRAINEE_LESSON_ABBRE_FK">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-22 03:51:19 UTC</createdTime>
+<ownerDesignName>SUBJECTDB_MODEL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="024AFE68-A40C-5F08-3D49-4DA291DCF0A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A50B546D-31A4-F9C6-4604-6B8F811918E1" name="TRAINEE_STUDENT_NUM_FK">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-22 03:51:19 UTC</createdTime>
+<ownerDesignName>SUBJECTDB_MODEL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03C19200-3AD0-B21E-C9A1-776F951D1FE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

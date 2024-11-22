@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="TRAINEE" directorySegmentName="seg_0" id="11E91E1C-7B78-F6A0-B0C2-04F9163EE665">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-22 03:51:17 UTC</createdTime>
+<ownerDesignName>SUBJECTDB_MODEL</ownerDesignName>
+<schemaObject>0532C62D-1F01-292C-48E3-32EFDB52CA88</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>CDE04896-3BC8-6D12-AF9D-410DB8706C1F</segment>
+<tableSpace>BCACD91A-5A7C-3BD7-A934-00D7D5E9496C</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ABBRE" id="024AFE68-A40C-5F08-3D49-4DA291DCF0A8">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-22 03:51:17 UTC</createdTime>
+<ownerDesignName>SUBJECTDB_MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="S_NUM" id="03C19200-3AD0-B21E-C9A1-776F951D1FE8">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-22 03:51:17 UTC</createdTime>
+<ownerDesignName>SUBJECTDB_MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SECTION" id="41FB6571-E05D-CC67-768E-8DCAD342B612">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-22 03:51:17 UTC</createdTime>
+<ownerDesignName>SUBJECTDB_MODEL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TDATE" id="8D7EBAF7-2710-5880-20DC-2485B3D988C6">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-22 03:51:17 UTC</createdTime>
+<ownerDesignName>SUBJECTDB_MODEL</ownerDesignName>
+<defaultValue>sysdate      -- 수강신청일</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="NO" id="ACFD3BB0-4573-B910-ED61-0BA6FC92ECC7">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-22 03:51:17 UTC</createdTime>
+<ownerDesignName>SUBJECTDB_MODEL</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="TRAINEE_NO_PK" id="19B45458-FCF6-C2BC-DE20-CD17D4C1869A">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-22 03:51:18 UTC</createdTime>
+<ownerDesignName>SUBJECTDB_MODEL</ownerDesignName>
+<schemaObject>0532C62D-1F01-292C-48E3-32EFDB52CA88</schemaObject>
+<segment>3DA50ABD-5930-AE6C-0C1E-B9F631453DC4</segment>
+<tableSpace>BCACD91A-5A7C-3BD7-A934-00D7D5E9496C</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="TRAINEE_STUDENT_NUM_FK" id="A50B546D-31A4-F9C6-4604-6B8F811918E1">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-22 03:51:19 UTC</createdTime>
+<ownerDesignName>SUBJECTDB_MODEL</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="TRAINEE_LESSON_ABBRE_FK" id="A52EA810-772B-A2F2-A232-70BDD794ADF6">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-22 03:51:19 UTC</createdTime>
+<ownerDesignName>SUBJECTDB_MODEL</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TRAINEE_NO_PK" id="C5B51F7A-1BBE-3826-7F20-2A34555BC190">
+<createdBy>Owner</createdBy>
+<createdTime>2024-11-22 03:51:18 UTC</createdTime>
+<ownerDesignName>SUBJECTDB_MODEL</ownerDesignName>
+<segment>3DA50ABD-5930-AE6C-0C1E-B9F631453DC4</segment>
+<tableSpace>BCACD91A-5A7C-3BD7-A934-00D7D5E9496C</tableSpace>
+<existingIndex>19B45458-FCF6-C2BC-DE20-CD17D4C1869A</existingIndex>
+<indexSegment>3DA50ABD-5930-AE6C-0C1E-B9F631453DC4</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>
